@@ -1,0 +1,51 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+    
+
+body{
+    position: relative;
+width: 1152px;
+height: 2041px;
+margin: 0 auto;
+
+}
+
+.header{
+    font-family: 'Heebo';
+    
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    padding: 10px;
+    margin-right: 60px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+.footer_wrapper{
+   
+  min-height: 100%;
+  display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer{
+    font-family: 'Heebo';
+    position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  
+}
+.link_img_footer{
+    padding: 25px;
+}
