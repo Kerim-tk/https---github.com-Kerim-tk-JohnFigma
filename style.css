@@ -70,6 +70,7 @@ color: #FFFFFF;
   display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 .hero-img{
     position: absolute;  
@@ -79,10 +80,72 @@ color: #FFFFFF;
     margin-right: 5px;
     margin-top: 13px;
 }
+
+.post-paragraph{
+    border-right: 1px solid;
+    padding-right: 26px;
+}
+.post-paragraph2{
+    
+    padding-left: 26px;
+}
+.firs-p{
+    display: flex;
+}
+.second-container{
+    display: flex;
+    font-family: 'Heebo';
+    background-color:#EDF7FA ;
+    margin-top: 71px
+    
+}
+
+.p-first{
+    background-color: #FFFFFF;
+}
+.first-post{
+    margin-left: 148px;
+}
+.second-post{
+    
+    margin: 0px 148px 0px 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.a-post{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: #00A8CC;
+}
+/* .second-container{
+    font-family: 'Heebo';
+    background-color:#EDF7FA ;
+    margin-top: 71px
+}
+.recent-posts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 148px;
+    margin-right: 148px;
+}
+.firs-p{
+    display: flex;
+}
+.post-paragraph{
+    border-right: 1px solid;
+    padding-right: 26px;
+}
+.post-paragraph2{
+    
+    padding-left: 26px;
+}
+.first-post{
+    background-color: #FFFFFF;
+} */
 .footer{
     font-family: 'Heebo';
-    
-  
 }
 .link_img_footer{
     padding: 25px;
@@ -93,4 +156,12 @@ color: #FFFFFF;
     justify-content: flex-start;
     padding-right: 125px;
     margin-right: inherit;
+}
+h2{
+    padding: 17px 0px;
+    font-weight: normal;
+    margin: 0px;
+}
+h1{
+    margin: 0px;
 }
