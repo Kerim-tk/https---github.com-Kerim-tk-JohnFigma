@@ -7,8 +7,8 @@
 
 body{
     position: relative;
-width: 1152px;
-height: 2041px;
+
+height: 100%;
 margin: 0 auto;
 
 }
@@ -81,11 +81,7 @@ color: #FFFFFF;
 }
 .footer{
     font-family: 'Heebo';
-    position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
+    
   
 }
 .link_img_footer{
@@ -94,6 +90,7 @@ color: #FFFFFF;
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-right: 125px;
+    margin-right: inherit;
 }
