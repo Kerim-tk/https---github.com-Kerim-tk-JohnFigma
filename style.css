@@ -1,21 +1,13 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
-
-
-    
-
 body{
     position: relative;
-
-height: 100%;
-margin: 0 auto;
-
+    height: 100%;
+    margin: 0 auto;
 }
-
 .header{
     font-family: 'Heebo';
-    
     font-weight: 500;
     font-size: 20px;
     display: flex;
@@ -38,7 +30,6 @@ a{
 }
 .narrow-container{
     font-family: 'Heebo';
-    
 }
 .hero-h1{
     width: 506px;
@@ -80,7 +71,6 @@ color: #FFFFFF;
     margin-right: 5px;
     margin-top: 13px;
 }
-
 .post-paragraph{
     border-right: 1px solid;
     padding-right: 26px;
@@ -98,8 +88,6 @@ color: #FFFFFF;
     padding: 35px 148px;
     background-color:#EDF7FA ;
     margin-top: 71px
-    
-    
 }
 
 .p-first{
@@ -111,12 +99,9 @@ color: #FFFFFF;
     align-items: flex-start
 }
 .second-post{
-    
-    
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
 }
 .a-post{
     color: #00A8CC;
@@ -124,32 +109,6 @@ color: #FFFFFF;
 .h2-a{
     height: 60px;
 }
-/* .second-container{
-    font-family: 'Heebo';
-    background-color:#EDF7FA ;
-    margin-top: 71px
-}
-.recent-posts{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 148px;
-    margin-right: 148px;
-}
-.firs-p{
-    display: flex;
-}
-.post-paragraph{
-    border-right: 1px solid;
-    padding-right: 26px;
-}
-.post-paragraph2{
-    
-    padding-left: 26px;
-}
-.first-post{
-    background-color: #FFFFFF;
-} */
 .footer{
     font-family: 'Heebo';
 }
