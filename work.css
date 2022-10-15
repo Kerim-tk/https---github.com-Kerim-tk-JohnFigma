@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Heebo';
+    color: #21243D;
+}
+.header {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    padding-top: 10px;
+    margin-right: 60px;
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  /* third-container-start */
+.third-container {
+    margin: 135px 235px 0px 235px;
+  }
+  .years-h2 {
+    color: #8695a4;
+    padding-left: 26px;
+  }
+  .years-p {
+    font-weight: 900;
+    color: #ffffff;
+    background: #142850;
+    width: fit-content;
+    border-radius: 16px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+  }
+  .years{
+      display: flex;
+      align-items: center;
+      padding: 20px 0px 22px 0px;
+  }
+  .first-design{
+      display: flex;
+      border-bottom: 1px solid #E0E0E0;
+      padding-bottom: 32px;
+      padding-top: 25px;
+  }
+  .second-design{
+      margin-top: 30px;
+      display: flex;
+      border-bottom: 1px solid #E0E0E0;
+      padding-bottom: 32px;
+  }
+  .third-design{
+      margin-top: 30px;
+      display: flex;
+      border-bottom: 1px solid #E0E0E0;
+      padding-bottom: 32px;
+  }
+  .works-img{
+      padding-right: 18px;
+  }
+  .Work{
+    height: 69px;
+    font-size: 44px;
+  }
+  .works-p{
+      margin: 0px;
+  }
+  h2 {
+    font-weight: normal;
+    margin: 0px;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .footer_wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 109px;
+  }
+  .link_img_footer {
+    padding: 25px;
+  }
+  .header-works{ 
+    color: #FF6464;
+  }

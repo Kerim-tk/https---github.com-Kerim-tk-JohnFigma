@@ -8,6 +8,7 @@ body {
   height: 100%;
   margin: 0 auto;
   font-family: 'Heebo';
+  color: #21243D;
 }
 .header {
   font-weight: 500;
@@ -15,7 +16,7 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 33px;
-  padding: 10px;
+  padding-top: 10px;
   margin-right: 60px;
 }
 a {
@@ -60,7 +61,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 134px;
 }
 .hero-img {
   position: absolute;
