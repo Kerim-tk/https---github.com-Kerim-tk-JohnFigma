@@ -143,12 +143,27 @@ h1 {
 .years{
     display: flex;
     align-items: center;
-    padding: 20px 0px 6px 0px;
+    padding: 20px 0px 22px 0px;
 }
 .first-design{
     display: flex;
     align-items: center;
     border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 32px;
+}
+.second-design{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 32px;
+}
+.third-design{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 32px;
 }
 .works-img{
     padding-right: 18px;
@@ -156,4 +171,7 @@ h1 {
 .FeaturedWorks{
     height: 60px;
     padding: 15px 0px 22px 0px;
+}
+.works-p{
+    margin: 0px;
 }
