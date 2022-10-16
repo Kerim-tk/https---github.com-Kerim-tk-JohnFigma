@@ -67,13 +67,12 @@ a {
   position: absolute;
   width: 243px;
   height: 243px;
+  margin: 0px 0px 13px 5px
 }
 .hero-img-shadow {
   position: absolute;
   width: 243px;
   height: 243px;
-  margin-right: 5px;
-  margin-top: 13px;
 }
 .post-paragraph {
   border-right: 1px solid;
@@ -229,9 +228,10 @@ h1 {
   }
   .hero-p {
     margin: 0px 20px 27px 20px;
-    width: auto;
+    width: 328px;
     height: auto;
-  }
+    text-align: center;
+}
   .hero-button {
     margin-top: 0px;
   }
@@ -264,4 +264,23 @@ h1 {
   .p-first{
     padding: 23px;
   }
+  .third-container {
+    margin: 0px 18px 0 18px;
+}
+.first-design {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 32px;
+  flex-direction: column;
+}
+.link_img_footer {
+  padding: 19px;
+}
+.footer_wrapper {
+  padding-top: 200px;
+}
+.FeaturedWorks {
+  text-align: center;
+}
 }
