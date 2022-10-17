@@ -24,6 +24,8 @@ body {
   /* third-container-start */
 .third-container {
     margin: 135px 235px 0px 235px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .years-h2 {
     color: #8695a4;
@@ -46,30 +48,30 @@ body {
   .first-design{
       display: flex;
       border-bottom: 1px solid #E0E0E0;
-      padding-bottom: 32px;
-      padding-top: 25px;
+      padding: 45px 25px 32px 0px;
   }
   .second-design{
-      margin-top: 30px;
       display: flex;
       border-bottom: 1px solid #E0E0E0;
-      padding-bottom: 32px;
+      padding: 45px 0px 32px 0px;
   }
   .third-design{
       margin-top: 30px;
       display: flex;
       border-bottom: 1px solid #E0E0E0;
-      padding-bottom: 32px;
+      padding: 0px 25px 32px 0px;
   }
   .works-img{
       padding-right: 18px;
   }
   .Work{
-    height: 69px;
+    margin-top: -46px;
     font-size: 44px;
+    position: absolute;
   }
   .works-p{
       margin: 0px;
+      width: 500px;
   }
   h2 {
     font-weight: normal;
