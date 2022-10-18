@@ -19,6 +19,9 @@ body {
   padding-top: 10px;
   margin-right: 60px;
 }
+.icon {
+    display: none;
+}
 a {
   color: #000000;
   text-decoration: none;
@@ -189,15 +192,21 @@ h1 {
   .desktop-only {
     display: none !important;
   }
-  .burger-bar {
-  }
   .hero-block {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin-left: 23px;
     margin-right: 23px;
+    margin-top: auto;
   }
+  .icon {
+    display: block; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+}
   .narrow-container {
     display: flex;
     flex-direction: column;
