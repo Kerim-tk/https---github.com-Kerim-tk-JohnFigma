@@ -305,7 +305,7 @@ h1 {
     }
     
 }
- @media (min-width: 905px) and (max-width: 1569px) {
+ @media (min-width: 919px) and (max-width: 1569px) {
     .third-container {
         margin: 0px 148px 0px 146px;
         display: flex;
