@@ -93,3 +93,34 @@ body {
   .header-works{ 
     color: #FF6464;
   }
+  @media (min-width: 1580px) and (max-width: 1919px){
+    .third-container {
+      margin: 135px 30px 0px 30px}
+  }
+  @media (max-width: 1579px) and (min-width:1130px){
+    .third-container {
+      display: block;
+    }
+  
+  }
+  @media (max-width: 1129px) and (min-width:772px){
+    .third-container {
+      display: block;
+      margin: 135px 30px 0px 30px;
+    }
+    .works-p {
+      width: auto; 
+  }
+  
+  }
+  @media (max-width: 771px) {
+    .third-container {
+      display: block;
+      margin: 135px 30px 0px 30px;
+    }
+    .works-p {
+      width: auto; 
+  }
+    
+  
+  }
