@@ -184,6 +184,7 @@ h1 {
   width: 500px;
 }
 /* third-container-end */
+
 @media (max-width: 400px) {
   .desktop-only {
     display: none !important;
@@ -296,4 +297,30 @@ h1 {
 .works-p {
   width:  auto;
 }
+}
+
+ @media (min-width: 1570px) and (max-width: 1700px) {
+    .third-container{
+        margin: 50px 30px 0px 30px;
+    }
+    
+}
+ @media (min-width: 905px) and (max-width: 1569px) {
+    .third-container {
+        margin: 0px 148px 0px 146px;
+        display: flex;
+        flex-direction: column; 
+    }
+    .works-p{
+        width: auto;
+    }
+    .FeaturedWorks {
+        display: flex;
+        position: unset;
+        height: 60px;
+        margin: 15px 0px 22px 0px;
+        align-items: center;
+    }
+    .first-design {
+        padding-bottom: 32px;}
 }
