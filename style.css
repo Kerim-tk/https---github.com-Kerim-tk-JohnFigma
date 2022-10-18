@@ -51,7 +51,7 @@ a {
   height: 47px;
   background: #ff6464;
   border-radius: 5px;
-  border-color: white;
+  border: none;
   align-items: center;
   justify-content: space-around;
 }
