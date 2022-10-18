@@ -185,7 +185,7 @@ h1 {
 }
 /* third-container-end */
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .desktop-only {
     display: none !important;
   }
@@ -303,7 +303,6 @@ h1 {
     .third-container{
         margin: 50px 30px 0px 30px;
     }
-    
 }
  @media (min-width: 919px) and (max-width: 1569px) {
     .third-container {
@@ -322,5 +321,45 @@ h1 {
         align-items: center;
     }
     .first-design {
-        padding-bottom: 32px;}
+        padding-bottom: 32px;
+    }
+        .second-container {
+            padding: 35px 50px;
+        }
+}
+@media (min-width: 801px) and (max-width: 918px)  {
+    .third-container {
+        margin: 0px 148px 0px 146px;
+        display: flex;
+        flex-direction: column; 
+    }
+    .works-p{
+        width: auto;
+    }
+    .FeaturedWorks {
+        display: flex;
+        position: unset;
+        height: 60px;
+        margin: 15px 0px 22px 0px;
+        align-items: center;
+    }
+    .first-design {
+        padding-bottom: 32px;
+    }
+    .hero-block {
+        margin-right: 100px;
+        margin-left: 30px;
+    }
+    .second-container {
+        padding: 35px 50px;
+    }
+    .first-design {
+        display: unset;
+    }
+    .second-design{
+        display: unset;
+    }
+    .third-design{
+        display: unset;
+    }
 }
