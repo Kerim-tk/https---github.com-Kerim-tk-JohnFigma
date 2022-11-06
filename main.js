@@ -1,7 +1,11 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
-    loop: true})
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },})
 // const arr = [
 //   {
 //     image: "./img/Designing Dashboards.png",
