@@ -192,6 +192,9 @@ h1 {
   .desktop-only {
     display: none !important;
   }
+  .swiper-container{
+    display: block !important;
+  }
   .hero-block {
     display: flex;
     flex-direction: column-reverse;
@@ -288,13 +291,6 @@ h1 {
   padding-bottom: 32px;
   flex-direction: column;
 }
-.second-design{
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 32px;
-  flex-direction: column;
-}
 .link_img_footer {
   padding: 19px;
 }
@@ -352,6 +348,7 @@ h1 {
     .works-p{
         width: auto;
     }
+
     .FeaturedWorks {
         display: flex;
         position: unset;
@@ -378,4 +375,7 @@ h1 {
     .third-design{
         display: unset;
     }
+}
+.swiper-container{
+  display: none;
 }
