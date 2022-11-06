@@ -1,3 +1,4 @@
+new Swiper('third-container');
 const arr = [
   {
     image: "./img/Designing Dashboards.png",
@@ -28,6 +29,7 @@ const arr = [
     description: "fourthDescription",
   },
 ];
+
 
 // arr.forEach((item, index) => {
 //   const div = document.createElement("div");
