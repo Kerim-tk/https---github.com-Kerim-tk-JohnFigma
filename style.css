@@ -192,7 +192,7 @@ h1 {
   .desktop-only {
     display: none !important;
   }
-  .swiper-container{
+  .design-slider{
     display: block !important;
   }
   .hero-block {
@@ -376,6 +376,6 @@ h1 {
         display: unset;
     }
 }
-.swiper-container{
+.design-slider{
   display: none;
 }

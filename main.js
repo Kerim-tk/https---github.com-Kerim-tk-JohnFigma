@@ -1,34 +1,37 @@
-new Swiper('third-container');
-const arr = [
-  {
-    image: "./img/Designing Dashboards.png",
-    title: "designingDashboard",
-    year: "2020",
-    category: "dashboard",
-    description: "firstDescription",
-  },
-  {
-    image: "./img/Vibrant Portraits of 2020.png",
-    title: "vibrantPortraitsOf2020",
-    year: "2018",
-    category: "illustration",
-    description: "secondDescription",
-  },
-  {
-    image: "./img/36 Days of Malayalam type.png",
-    title: "36DaysOfMalayalamType",
-    year: "2018",
-    category: "typography",
-    description: "thirdDescription",
-  },
-  {
-    image: "./img/36 Days of Malayalam type.png",
-    title: "36DaysOfMalayalamType",
-    year: "2018",
-    category: "typography",
-    description: "fourthDescription",
-  },
-];
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true})
+// const arr = [
+//   {
+//     image: "./img/Designing Dashboards.png",
+//     title: "designingDashboard",
+//     year: "2020",
+//     category: "dashboard",
+//     description: "firstDescription",
+//   },
+//   {
+//     image: "./img/Vibrant Portraits of 2020.png",
+//     title: "vibrantPortraitsOf2020",
+//     year: "2018",
+//     category: "illustration",
+//     description: "secondDescription",
+//   },
+//   {
+//     image: "./img/36 Days of Malayalam type.png",
+//     title: "36DaysOfMalayalamType",
+//     year: "2018",
+//     category: "typography",
+//     description: "thirdDescription",
+//   },
+//   {
+//     image: "./img/36 Days of Malayalam type.png",
+//     title: "36DaysOfMalayalamType",
+//     year: "2018",
+//     category: "typography",
+//     description: "fourthDescription",
+//   },
+// ];
 
 
 // arr.forEach((item, index) => {
