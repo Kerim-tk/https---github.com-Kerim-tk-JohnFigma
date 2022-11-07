@@ -1,6 +1,7 @@
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
     navigation: {
         nextEl: '.swiper-button-next',
